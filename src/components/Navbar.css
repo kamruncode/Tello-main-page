@@ -1,0 +1,68 @@
+.nav {
+  border-bottom: 1px solid #2dd06e;
+}
+
+.header {
+  margin: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+logo {
+  height: 42px;
+}
+.search {
+  border: 1px solid #e0e0e0;
+  background-color: #f2f2f2;
+  width: 591px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.search input {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  width: 86%;
+}
+.user-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 146px;
+  padding-right: 5px;
+}
+.numberOfpro {
+  position: absolute;
+  background: #2dd06e;
+  color: #fff;
+  width: 20px;
+  height: 19.75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  right: -5px;
+  top: -16px;
+}
+nav {
+  margin: 13px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+}
+nav ul li {
+  color: #4f4f4f;
+  font-weight: bold;
+  font-size: 14px;
+  list-style: none;
+}

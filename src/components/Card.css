@@ -1,0 +1,28 @@
+.card {
+  height: 386px;
+  width: 286px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(164, 164, 164, 0.318);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-info {
+  width: 226px;
+}
+
+.card img {
+  width: 210px;
+}
+.price {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #db2c66;
+}

@@ -1,0 +1,9 @@
+.KargoCartInfo {
+  height: 220px;
+  width: 24rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}

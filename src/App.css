@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Imported;
+  src: url(./Euclid\ Circular\ A\ Light.ttf);
+}
+
+* {
+  font-family: Imported;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1320px;
+  /* border: 1px solid #000; */
+}
+.general-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.most-saled,
+.all-sales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.all-sales {
+  width: 8.6rem;
+}
+.wrap {
+  flex-wrap: wrap;
+}

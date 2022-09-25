@@ -1,0 +1,15 @@
+.thirdProAdvertise {
+  position: relative;
+  width: 592px;
+  height: 356px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin: 0.6rem 0;
+}
+.thirdProAdvertise img {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 0;
+}
